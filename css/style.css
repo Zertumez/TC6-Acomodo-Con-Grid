@@ -1,0 +1,45 @@
+.grid {
+    display:grid;
+
+    grid-template-areas:
+        "title title title"
+        "content content advertisement"
+        "content content sidebar"
+        "content content sidebar"
+        "footer footer footer"
+}
+
+.title {
+    background-color: rgb(0, 17, 255);
+    grid-area: title;
+    height: 150px;
+    width: 100%;
+}
+
+.content {
+    background-color: rgb(38, 255, 226);
+    grid-area: content;
+    height: 100%;
+    width: 100%;
+}
+
+.advertisement {
+    background-color: rgb(0, 255, 128);
+    grid-area: advertisement;
+    height: 150px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: rgb(132, 0, 255);
+    grid-area: sidebar;
+    height: 300px;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(202, 0, 209);
+    grid-area: footer;
+    height: 150px;
+    width: 100%;
+}
